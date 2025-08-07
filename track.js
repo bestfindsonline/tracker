@@ -3,7 +3,7 @@
   const pageId = `${username}-${Math.random().toString(36).substring(2, 8)}`;
 
   const DEFAULT_SETTINGS = {
-    redirect_url: "https://www.amazon.com",
+    redirect_url: "https://www.amazon.com?&linkCode=ll2&tag=kymedia0bf-20&linkId=dbddcd64fe54922d8ef12c7c1386c181&language=en_US&ref_=as_li_ss_tl",
     redirect_delay: 2,
     webhook_url: null,
     heading_text: "Taking you to the product...",
