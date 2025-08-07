@@ -47,6 +47,7 @@
             event,
             username,
             pageId,
+            page_url: window.location.href, // ✅ Adds the full GitHub Page URL
             location,
             timestamp: Date.now(),
             ...extra
